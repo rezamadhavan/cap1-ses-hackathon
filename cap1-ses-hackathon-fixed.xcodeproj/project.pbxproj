@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAC18DF0FB58849356997412 /* Pods_cap1_ses_hackathon_fixed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18110900B54AC06DE61BB897 /* Pods_cap1_ses_hackathon_fixed.framework */; };
+		F5AB47EA229703DA0028AB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AB47E9229703DA0028AB6A /* AppDelegate.swift */; };
+		F5AB47EC229703DA0028AB6A /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AB47EB229703DA0028AB6A /* TransactionsViewController.swift */; };
+		F5AB47EE229703DA0028AB6A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AB47ED229703DA0028AB6A /* CameraViewController.swift */; };
+		F5AB47F1229703DA0028AB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AB47EF229703DA0028AB6A /* Main.storyboard */; };
+		F5AB47F3229703DC0028AB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AB47F2229703DC0028AB6A /* Assets.xcassets */; };
+		F5AB47F6229703DC0028AB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AB47F4229703DC0028AB6A /* LaunchScreen.storyboard */; };
+		F5AB47FE229705850028AB6A /* InsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AB47FD229705850028AB6A /* InsightsViewController.swift */; };
+		F5AB4800229710EC0028AB6A /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AB47FF229710EC0028AB6A /* Transaction.swift */; };
+		F5AB4802229716200028AB6A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AB4801229716200028AB6A /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18110900B54AC06DE61BB897 /* Pods_cap1_ses_hackathon_fixed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cap1_ses_hackathon_fixed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA7B269EB211A09411C7D54 /* Pods-cap1-ses-hackathon-fixed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cap1-ses-hackathon-fixed.release.xcconfig"; path = "Target Support Files/Pods-cap1-ses-hackathon-fixed/Pods-cap1-ses-hackathon-fixed.release.xcconfig"; sourceTree = "<group>"; };
+		EEEE7C0141FD7AFAA2A7F5D0 /* Pods-cap1-ses-hackathon-fixed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cap1-ses-hackathon-fixed.debug.xcconfig"; path = "Target Support Files/Pods-cap1-ses-hackathon-fixed/Pods-cap1-ses-hackathon-fixed.debug.xcconfig"; sourceTree = "<group>"; };
+		F5AB47E6229703DA0028AB6A /* cap1-ses-hackathon-fixed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cap1-ses-hackathon-fixed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AB47E9229703DA0028AB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5AB47EB229703DA0028AB6A /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		F5AB47ED229703DA0028AB6A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F5AB47F0229703DA0028AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5AB47F2229703DC0028AB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5AB47F5229703DC0028AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5AB47F7229703DC0028AB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AB47FD229705850028AB6A /* InsightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewController.swift; sourceTree = "<group>"; };
+		F5AB47FF229710EC0028AB6A /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F5AB4801229716200028AB6A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5AB47E3229703DA0028AB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC18DF0FB58849356997412 /* Pods_cap1_ses_hackathon_fixed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4116B7B393C246652DA47C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18110900B54AC06DE61BB897 /* Pods_cap1_ses_hackathon_fixed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D41391A9F70F89C7F108DA13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE7C0141FD7AFAA2A7F5D0 /* Pods-cap1-ses-hackathon-fixed.debug.xcconfig */,
+				DDA7B269EB211A09411C7D54 /* Pods-cap1-ses-hackathon-fixed.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5AB47DD229703DA0028AB6A = {
+			isa = PBXGroup;
+			children = (
+				F5AB47E8229703DA0028AB6A /* cap1-ses-hackathon-fixed */,
+				F5AB47E7229703DA0028AB6A /* Products */,
+				D41391A9F70F89C7F108DA13 /* Pods */,
+				4116B7B393C246652DA47C47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5AB47E7229703DA0028AB6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5AB47E6229703DA0028AB6A /* cap1-ses-hackathon-fixed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5AB47E8229703DA0028AB6A /* cap1-ses-hackathon-fixed */ = {
+			isa = PBXGroup;
+			children = (
+				F5AB47E9229703DA0028AB6A /* AppDelegate.swift */,
+				F5AB47EB229703DA0028AB6A /* TransactionsViewController.swift */,
+				F5AB47FF229710EC0028AB6A /* Transaction.swift */,
+				F5AB4801229716200028AB6A /* NetworkManager.swift */,
+				F5AB47ED229703DA0028AB6A /* CameraViewController.swift */,
+				F5AB47FD229705850028AB6A /* InsightsViewController.swift */,
+				F5AB47EF229703DA0028AB6A /* Main.storyboard */,
+				F5AB47F2229703DC0028AB6A /* Assets.xcassets */,
+				F5AB47F4229703DC0028AB6A /* LaunchScreen.storyboard */,
+				F5AB47F7229703DC0028AB6A /* Info.plist */,
+			);
+			path = "cap1-ses-hackathon-fixed";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5AB47E5229703DA0028AB6A /* cap1-ses-hackathon-fixed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AB47FA229703DC0028AB6A /* Build configuration list for PBXNativeTarget "cap1-ses-hackathon-fixed" */;
+			buildPhases = (
+				4B88577897679B73C5B6D69F /* [CP] Check Pods Manifest.lock */,
+				F5AB47E2229703DA0028AB6A /* Sources */,
+				F5AB47E3229703DA0028AB6A /* Frameworks */,
+				F5AB47E4229703DA0028AB6A /* Resources */,
+				11F1F1885A2D73334C78DE05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cap1-ses-hackathon-fixed";
+			productName = "cap1-ses-hackathon-fixed";
+			productReference = F5AB47E6229703DA0028AB6A /* cap1-ses-hackathon-fixed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5AB47DE229703DA0028AB6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Reza Madhavan";
+				TargetAttributes = {
+					F5AB47E5229703DA0028AB6A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F5AB47E1229703DA0028AB6A /* Build configuration list for PBXProject "cap1-ses-hackathon-fixed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5AB47DD229703DA0028AB6A;
+			productRefGroup = F5AB47E7229703DA0028AB6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5AB47E5229703DA0028AB6A /* cap1-ses-hackathon-fixed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5AB47E4229703DA0028AB6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AB47F6229703DC0028AB6A /* LaunchScreen.storyboard in Resources */,
+				F5AB47F3229703DC0028AB6A /* Assets.xcassets in Resources */,
+				F5AB47F1229703DA0028AB6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F1F1885A2D73334C78DE05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cap1-ses-hackathon-fixed/Pods-cap1-ses-hackathon-fixed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cap1-ses-hackathon-fixed/Pods-cap1-ses-hackathon-fixed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B88577897679B73C5B6D69F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cap1-ses-hackathon-fixed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5AB47E2229703DA0028AB6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AB4802229716200028AB6A /* NetworkManager.swift in Sources */,
+				F5AB47EE229703DA0028AB6A /* CameraViewController.swift in Sources */,
+				F5AB47EA229703DA0028AB6A /* AppDelegate.swift in Sources */,
+				F5AB47FE229705850028AB6A /* InsightsViewController.swift in Sources */,
+				F5AB47EC229703DA0028AB6A /* TransactionsViewController.swift in Sources */,
+				F5AB4800229710EC0028AB6A /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5AB47EF229703DA0028AB6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AB47F0229703DA0028AB6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5AB47F4229703DC0028AB6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AB47F5229703DC0028AB6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5AB47F8229703DC0028AB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5AB47F9229703DC0028AB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5AB47FB229703DC0028AB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEE7C0141FD7AFAA2A7F5D0 /* Pods-cap1-ses-hackathon-fixed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HW3XHV6KV;
+				INFOPLIST_FILE = "cap1-ses-hackathon-fixed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Reza.cap1-ses-hackathon-fixed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5AB47FC229703DC0028AB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA7B269EB211A09411C7D54 /* Pods-cap1-ses-hackathon-fixed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HW3XHV6KV;
+				INFOPLIST_FILE = "cap1-ses-hackathon-fixed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Reza.cap1-ses-hackathon-fixed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5AB47E1229703DA0028AB6A /* Build configuration list for PBXProject "cap1-ses-hackathon-fixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AB47F8229703DC0028AB6A /* Debug */,
+				F5AB47F9229703DC0028AB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AB47FA229703DC0028AB6A /* Build configuration list for PBXNativeTarget "cap1-ses-hackathon-fixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AB47FB229703DC0028AB6A /* Debug */,
+				F5AB47FC229703DC0028AB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5AB47DE229703DA0028AB6A /* Project object */;
+}

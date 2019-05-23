@@ -1,0 +1,6 @@
+framework module Pods_cap1_ses_hackathon_fixed {
+  umbrella header "Pods-cap1-ses-hackathon-fixed-umbrella.h"
+
+  export *
+  module * { export * }
+}
