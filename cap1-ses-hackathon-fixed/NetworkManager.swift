@@ -14,7 +14,7 @@ class NetworkManager{
     
     private static let baseURL = "http://0.0.0.0"
     
-    static func getTransactions(completion: @escaping (Transaction?, String) -> Void){
+    static func getTransactions(completion: @escaping ([Transaction]) -> Void){
         let url = "\(baseURL)/api/user/"
         Alamofire.request(url, method: .get, parameters: [:], encoding: Alamofire.JSONEncoding.default, headers: [:]).validate().responseData(){
             response in
@@ -22,13 +22,13 @@ class NetworkManager{
             case .success(let data):
                 let jsonDecoder = JSONDecoder()
                 if let transactionRes = try? jsonDecoder.decode(TransactionDataResponse.self, from: data) {
-                    completion(transactionRes.data, "Successful")
+                    completion([])
                 }
                 else {
-                    completion(nil, "Unexpected error. Try again.")
+                    completion([])
                 }
             case .failure( _):
-                completion(nil, "Unexpected error. Try again.")
+                completion([])
             }
         }
     }
